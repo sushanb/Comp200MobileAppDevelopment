@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.csci200.sbhattarai.locationtracker.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Current Location"
+        android:id="@+id/show_map"
+        android:layout_marginTop="50dp"
+        android:singleLine="false"
+        android:layout_below="@+id/cal_distance"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Destination Latitude"
+        android:id="@+id/dest_latitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/show_map"
+        android:layout_alignRight="@+id/dest_longitude"
+        android:layout_alignEnd="@+id/dest_longitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Destination Longitude"
+        android:id="@+id/dest_longitude"
+        android:layout_below="@+id/dest_latitude"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/num_long"
+        android:layout_toStartOf="@+id/num_long" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="10"
+        android:id="@+id/num_lat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:numeric="decimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:ems="10"
+        android:id="@+id/num_long"
+        android:layout_alignBottom="@+id/dest_longitude"
+        android:layout_alignRight="@+id/num_lat"
+        android:layout_alignEnd="@+id/num_lat"
+        android:layout_alignTop="@+id/dest_longitude" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Distance"
+        android:id="@+id/cal_distance"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/accent_material_light"
+        android:textStyle="normal"
+        android:layout_below="@+id/dest_longitude"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
