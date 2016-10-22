@@ -5,19 +5,39 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
+
+import com.firebase.client.Firebase;
 
 public class MainActivity extends AppCompatActivity {
     LocationManager mLocationManager;
     Location mLocation;
+    private Button mStartTrackingButton, mEndTrackingButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Firebase.setAndroidContext(this);
         mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        mStartTrackingButton = (Button) findViewById(R.id.startrecord);
+        mEndTrackingButton = (Button) findViewById(R.id.endtrack);
 
-        System.out.println(getLocationData().toString());
+        mStartTrackingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doStartTracking();
+            }
+        });
+
+        mEndTrackingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doEndTracking();
+            }
+        });
     }
 
 
@@ -44,4 +64,28 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void doStartTracking(){
+        Firebase mFirebase = new Firebase("https://exam2001.firebaseio.com");
+        mLocation = getLocationData();
+        Double latitudeData = mLocation.getLatitude();
+        Double longitudeData = mLocation.getLongitude();
+        final Firebase latStart = mFirebase.child("StartLatitude");
+        final Firebase longStart = mFirebase.child("EndLatitude");
+        latStart.setValue(latitudeData);
+        longStart.setValue(longitudeData);
+    }
+
+    public void doEndTracking(){
+        Firebase mFirebase = new Firebase("https://exam2001.firebaseio.com");
+        mLocation = getLocationData();
+        Double latitudeData = mLocation.getLatitude();
+        Double longitudeData = mLocation.getLongitude();
+        final Firebase latEnd = mFirebase.child("StartLongitude");
+        final Firebase longEnd = mFirebase.child("EndLongitude");
+        latEnd.setValue(latitudeData);
+        longEnd.setValue(longitudeData);
+
+    }
+
 }

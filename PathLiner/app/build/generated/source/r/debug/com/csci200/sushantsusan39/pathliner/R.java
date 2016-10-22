@@ -2179,7 +2179,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020072;
     }
     public static final class id {
-        public static final int action0=0x7f0c0069;
+        public static final int action0=0x7f0c006b;
         public static final int action_bar=0x7f0c005a;
         public static final int action_bar_activity_content=0x7f0c0000;
         public static final int action_bar_container=0x7f0c0059;
@@ -2188,7 +2188,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0c003a;
         public static final int action_bar_title=0x7f0c0039;
         public static final int action_context_bar=0x7f0c005b;
-        public static final int action_divider=0x7f0c006d;
+        public static final int action_divider=0x7f0c006f;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
         public static final int action_mode_bar=0x7f0c0057;
@@ -2207,9 +2207,9 @@ containing a value of this type.
         public static final int buyButton=0x7f0c002f;
         public static final int buy_now=0x7f0c0033;
         public static final int buy_with_google=0x7f0c0034;
-        public static final int cancel_action=0x7f0c006a;
+        public static final int cancel_action=0x7f0c006c;
         public static final int checkbox=0x7f0c0051;
-        public static final int chronometer=0x7f0c0070;
+        public static final int chronometer=0x7f0c0072;
         public static final int classic=0x7f0c0036;
         public static final int collapseActionView=0x7f0c0024;
         public static final int contentPanel=0x7f0c0049;
@@ -2221,7 +2221,8 @@ containing a value of this type.
         public static final int donate_with_google=0x7f0c0035;
         public static final int edit_query=0x7f0c005c;
         public static final int end=0x7f0c001c;
-        public static final int end_padder=0x7f0c0075;
+        public static final int end_padder=0x7f0c0077;
+        public static final int endtrack=0x7f0c006a;
         public static final int expand_activities_button=0x7f0c003d;
         public static final int expanded_menu=0x7f0c0050;
         public static final int grayscale=0x7f0c0037;
@@ -2233,13 +2234,13 @@ containing a value of this type.
         public static final int icon=0x7f0c0041;
         public static final int ifRoom=0x7f0c0025;
         public static final int image=0x7f0c003e;
-        public static final int info=0x7f0c0074;
-        public static final int line1=0x7f0c006e;
-        public static final int line3=0x7f0c0072;
+        public static final int info=0x7f0c0076;
+        public static final int line1=0x7f0c0070;
+        public static final int line3=0x7f0c0074;
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c0040;
         public static final int match_parent=0x7f0c0031;
-        public static final int media_actions=0x7f0c006c;
+        public static final int media_actions=0x7f0c006e;
         public static final int middle=0x7f0c001d;
         public static final int monochrome=0x7f0c0038;
         public static final int multiply=0x7f0c0014;
@@ -2279,16 +2280,17 @@ containing a value of this type.
         public static final int src_atop=0x7f0c0016;
         public static final int src_in=0x7f0c0017;
         public static final int src_over=0x7f0c0018;
-        public static final int status_bar_latest_event_content=0x7f0c006b;
+        public static final int startrecord=0x7f0c0069;
+        public static final int status_bar_latest_event_content=0x7f0c006d;
         public static final int strict_sandbox=0x7f0c002e;
         public static final int submenuarrow=0x7f0c0054;
         public static final int submit_area=0x7f0c0065;
         public static final int tabMode=0x7f0c000b;
         public static final int terrain=0x7f0c0022;
-        public static final int text=0x7f0c0073;
-        public static final int text2=0x7f0c0071;
+        public static final int text=0x7f0c0075;
+        public static final int text2=0x7f0c0073;
         public static final int textSpacerNoButtons=0x7f0c004c;
-        public static final int time=0x7f0c006f;
+        public static final int time=0x7f0c0071;
         public static final int title=0x7f0c0042;
         public static final int title_template=0x7f0c0047;
         public static final int top=0x7f0c0029;
