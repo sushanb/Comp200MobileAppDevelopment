@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_f3d1088a0debadd66f5d483ee1e35a2285aa5b8a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_265b423287c0108bccd10b97e612b0c51839f266/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_f9e80b45ae25d37f558de5c0c0efd2af084f6af0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_6346b4262d051cfe6e6802b6264e9235db39199b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0f11bec2d33b95ffcb35b4bfce2b81a6824e115a">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2f6bc0a797c0a8d7bf9bf4803e90d387cb5a7701/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1d52d3b45f5df928f370273799dbc07279de30a4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b7227a983cc142d4090cde792534f86d9326ece9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_ea004bfe6d4e706399e7e9a2e56f51895fce3086/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_86a671701acd823404c9fd32a70fbb347597d9f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f16feb6b2d10f7003e8c8774272fb7d3189408fe/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d947428a8db0e008f40fed071c4cd342aaac6745/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f9e8be9c6921e6428add1fffdd705a76a0d07234/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_80a196f0847ebeb29641244346cdac6e641748f3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a2951c56635ec2188addcbe82174a809eb83e1b7">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53da4e7f2e2a3a1271fdaf82fc0e3a883759624e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_9eaf09af21d7099ba6ee680d3561c9d9db42cde3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d8d0908c8421f5beeede719147199d6b1b45a465/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_bf8bac01ed637faa255d2899e0c7ac390b941820/classes.dex" />
+    </item>
+
+</items>
