@@ -15,7 +15,7 @@ import com.firebase.client.Firebase;
 public class MainActivity extends AppCompatActivity {
     Firebase mFirebase;
     LocationManager mLocationManager;
-    Location mLocation;
+    Location mLocationGPS, mLocationNet, mLocation;
     private Button mStartTrackingButton, mEndTrackingButton, mSeeButton;
 
     @Override
@@ -51,8 +51,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+    @Override public void onStart(){
+        super.onStart();
+        Firebase.setAndroidContext(this);
+        mFirebase = new Firebase("https://exam2001.firebaseio.com");
+        mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+    }
 
-
+    @Override public void onResume(){
+        super.onResume();
+        Firebase.setAndroidContext(this);
+        mFirebase = new Firebase("https://exam2001.firebaseio.com");
+        mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+    }
     private boolean checkLocationStatus(){
         if (mLocationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || mLocationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
             return true;
@@ -67,10 +79,27 @@ public class MainActivity extends AppCompatActivity {
             return null;
         } else {
             try {
-                mLocation = mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) == null ?
-                        mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER) :
-                        mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                return mLocation;
+                mLocationGPS = mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) ;
+                mLocationNet =  mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                long GPSLocationTime = 0;
+                if (mLocationGPS != null){
+                    GPSLocationTime = mLocationGPS.getTime();
+                }
+                long NetLocationTime = 0;
+                if (mLocationNet != null){
+                    NetLocationTime = mLocationNet.getTime();
+                }
+                if (GPSLocationTime - NetLocationTime > 0){
+                    return mLocationGPS;
+                } else if (NetLocationTime - GPSLocationTime > 0) {
+                    return mLocationNet;
+                } else {
+                    mLocation = mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) == null ?
+                            mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER) :
+                            mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                    return mLocation;
+                }
+
             }catch (SecurityException e){
                 return null;
             }

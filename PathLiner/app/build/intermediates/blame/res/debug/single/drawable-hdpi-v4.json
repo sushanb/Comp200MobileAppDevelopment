@@ -16,12 +16,12 @@
         "source": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png",
-        "source": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
         "source": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
