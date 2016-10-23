@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5538eaf4988c1508eaffd0c9efbaf77abaaba233">
+        <dex dex="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53da4e7f2e2a3a1271fdaf82fc0e3a883759624e/classes.dex" />
+    </item>
+
+</items>

@@ -17,14 +17,24 @@
         android:text="Start Tracking"
         android:id="@+id/startrecord"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="END TRACKING"
         android:id="@+id/endtrack"
-        android:layout_below="@+id/startrecord"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_alignTop="@+id/startrecord"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Result"
+        android:id="@+id/seemap"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/endtrack"
+        android:layout_toStartOf="@+id/endtrack" />
 </RelativeLayout>

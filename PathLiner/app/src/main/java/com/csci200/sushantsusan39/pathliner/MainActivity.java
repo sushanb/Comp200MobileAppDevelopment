@@ -1,6 +1,7 @@
 package com.csci200.sushantsusan39.pathliner;
 
 import android.content.Context;
+import android.content.Intent;
 import android.location.Location;
 import android.location.LocationManager;
 import android.support.v7.app.AppCompatActivity;
@@ -98,7 +99,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showMaps() {
-        
+        Intent popRest = new Intent(MainActivity.this, MapsActivity.class);
+        startActivity(popRest);
     }
 
 
