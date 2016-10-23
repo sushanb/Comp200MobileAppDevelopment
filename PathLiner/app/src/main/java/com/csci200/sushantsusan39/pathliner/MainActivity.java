@@ -79,23 +79,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void doStartTracking(){
         mLocation = getLocationData();
-        Double latitudeData = mLocation.getLatitude();
-        Double longitudeData = mLocation.getLongitude();
-        final Firebase latStart = mFirebase.child("StartLatitude");
-        final Firebase longStart = mFirebase.child("EndLatitude");
-        latStart.setValue(latitudeData);
-        longStart.setValue(longitudeData);
+        final Firebase latStart = mFirebase.child("Start");
+        latStart.setValue(mLocation);
     }
 
     public void doEndTracking(){
         mLocation = getLocationData();
-        Double latitudeData = mLocation.getLatitude();
-        Double longitudeData = mLocation.getLongitude();
-        final Firebase latEnd = mFirebase.child("StartLongitude");
-        final Firebase longEnd = mFirebase.child("EndLongitude");
-        latEnd.setValue(latitudeData);
-        longEnd.setValue(longitudeData);
-
+        final Firebase latEnd = mFirebase.child("End");
+        latEnd.setValue(mLocation);
     }
 
     public void showMaps() {

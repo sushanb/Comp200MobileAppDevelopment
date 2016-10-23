@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/sushantsusan39/Downloads/PathLiner/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/sushantsusan39/Downloads/PathLiner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
         "merged": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v23/abc_control_background_material.xml"
     }

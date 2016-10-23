@@ -4,27 +4,27 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="19730119952344"
-    token="3782363727148113109" >
+    timestamp="25490068050078"
+    token="7621188654498182248" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="505" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="156" />
     <task
         name="verifier"
-        duration="0" />
+        duration="38" />
 
     <artifact
         location="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="19730119952344" >
+    <build timestamp="25490068050078" >
         <artifact
             location="/Users/sushantsusan39/Desktop/Comp200MobileAppDevelopment/PathLiner/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
