@@ -12,18 +12,21 @@ import android.widget.Toast;
 import com.firebase.client.Firebase;
 
 public class MainActivity extends AppCompatActivity {
+    Firebase mFirebase;
     LocationManager mLocationManager;
     Location mLocation;
-    private Button mStartTrackingButton, mEndTrackingButton;
+    private Button mStartTrackingButton, mEndTrackingButton, mSeeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Firebase.setAndroidContext(this);
+        mFirebase = new Firebase("https://exam2001.firebaseio.com");
         mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         mStartTrackingButton = (Button) findViewById(R.id.startrecord);
         mEndTrackingButton = (Button) findViewById(R.id.endtrack);
+        mSeeButton = (Button) findViewById(R.id.seemap);
 
         mStartTrackingButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 doEndTracking();
             }
         });
+
+        mSeeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showMaps();
+            }
+        });
+
     }
 
 
@@ -66,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doStartTracking(){
-        Firebase mFirebase = new Firebase("https://exam2001.firebaseio.com");
         mLocation = getLocationData();
         Double latitudeData = mLocation.getLatitude();
         Double longitudeData = mLocation.getLongitude();
@@ -77,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doEndTracking(){
-        Firebase mFirebase = new Firebase("https://exam2001.firebaseio.com");
         mLocation = getLocationData();
         Double latitudeData = mLocation.getLatitude();
         Double longitudeData = mLocation.getLongitude();
@@ -87,5 +96,10 @@ public class MainActivity extends AppCompatActivity {
         longEnd.setValue(longitudeData);
 
     }
+
+    public void showMaps() {
+        
+    }
+
 
 }
